@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="container">
+            <label for="">Search for Pokémon Name or ID:</label>
+            <input type="text" id="search-input" placeholder="Enter..."  required />
+            <button id="search-button">Search</button>
+        </div>
+        <div class="info">
+            <div class="pokemon-info">
+                <h1 id="pokemon-name" class="pokemon-name"></h1>
+                <h1 id="pokemon-id" class="pokemon-id"></h1>
+            </div>
+            <div class="extra-info">
+                <p id="weight"></p>
+                <p id="height"></p>
+            </div>
+        </div>
+        <div class="type" >
+            <div  id="pokemonImg"></div>
+            <h4 id="types"></h4>
+        </div>
+        <div class="stats">
+            <table>
+                <tr>
+                    <th>Base</th>
+                    <th>Stats</th>
+                </tr>
+                <tr>
+                    <td>HP:</td>
+                    <td id="hp"></td>
+                </tr>
+                <tr>
+                    <td>Attack:</td>
+                    <td id="attack"></td>
+                </tr>
+                <tr>
+                    <td>Defense:</td>
+                    <td id="defense"></td>
+                </tr>
+                <tr>
+                    <td>Special-attack:</td>
+                    <td id="special-attack"></td>
+                </tr>
+                <tr>
+                    <td>Special-defense:</td>
+                    <td id="special-defense"></td>
+                </tr>
+                <tr>
+                    <td >Speed:</td>
+                    <td id="speed"></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
